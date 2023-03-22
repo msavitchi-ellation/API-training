@@ -1,0 +1,36 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>org.example</groupId>
+    <artifactId>API_Workshop</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <name>Archetype - API_Workshop</name>
+    <url>http://maven.apache.org</url>
+
+    <properties>
+        <kotlin.version>1.6.21</kotlin.version>
+        <resttest.version>1.0.0-SNAPSHOT</resttest.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.ellation</groupId>
+            <artifactId>resttest-java</artifactId>
+            <version>${resttest.version}</version>
+        </dependency>
+    </dependencies>
+</project>
+
+        <!--    <repositories>-->
+        <!--        <repository>-->
+        <!--            <id>nexus</id>-->
+        <!--            <url>https://sonatype-nexus-repository.ellationeng.cx-mgmt.com/repository/maven-group</url>-->
+        <!--        </repository>-->
+        <!--    </repositories>-->
+
+        <!--    <pluginRepositories>-->
+        <!--        <pluginRepository>-->
+        <!--            <id>nexus</id>-->
+        <!--            <url>https://sonatype-nexus-repository.ellationeng.cx-mgmt.com/repository/maven-group</url>-->
+        <!--        </pluginRepository>-->
+        <!--    </pluginRepositories>-->
