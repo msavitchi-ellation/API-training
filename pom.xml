@@ -11,6 +11,7 @@
         <kotlin.version>1.6.21</kotlin.version>
         <resttest.version>1.0.0-SNAPSHOT</resttest.version>
         <surefire.version>3.0.0-M4</surefire.version>
+        <api.client.version>1.1.120</api.client.version>
     </properties>
     <build>
         <plugins>
@@ -38,6 +39,17 @@
             <version>5.9.2</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>com.ellation.testing</groupId>
+            <artifactId>api-client</artifactId>
+            <version>${api.client.version}</version>
+        </dependency>
     </dependencies>
+    <repositories>
+        <repository>
+            <id>nexus</id>
+            <url>https://sonatype-nexus-repository.ellationeng.cx-mgmt.com/repository/maven-group</url>
+        </repository>
+    </repositories>
 </project>
 
